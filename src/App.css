@@ -1,7 +1,13 @@
 .App {
   text-align: center;
+  background-color: #CAD5CA;
 }
-
+.button {
+  background-color: #6320EE;
+  color: #F8F0FB;
+  letter-spacing: 2px;
+  padding: 2px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

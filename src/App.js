@@ -120,8 +120,8 @@ const App = () => {
               style={{
                 width: 20,
                 height: 20,
-                backgroundColor: grid[i][k] ? "pink" : "green",
-                border: "solid 1px black"
+                backgroundColor: grid[i][k] ? "#F8F0FB" : "#211A1D",
+                border: "solid 1px #8075FF"
               }}
             />
           ))
