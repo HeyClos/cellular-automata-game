@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useRef } from "react";
 import produce from "immer";
 
-const numRows = 30;
+const numRows = 50;
 const numCols = 50;
 
 const operations = [
