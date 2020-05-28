@@ -38,7 +38,9 @@ const App = () => {
     if (!runningRef.current) {
       return;
     }
-
+// Logic for the tiles lives here
+// produce is a function we get from immer
+// produce allows use to use a copy of grid so we're not changing state every time
     setGrid(g => {
       return produce(g, gridCopy => {
         for (let i = 0; i < numRows; i++) {
@@ -61,7 +63,7 @@ const App = () => {
         }
       });
     });
-
+// Here we set how quickly these are animated. 
     setTimeout(runSimulation, 100);
   }, []);
 
@@ -118,7 +120,7 @@ const App = () => {
               style={{
                 width: 20,
                 height: 20,
-                backgroundColor: grid[i][k] ? "pink" : undefined,
+                backgroundColor: grid[i][k] ? "pink" : "green",
                 border: "solid 1px black"
               }}
             />
