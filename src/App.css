@@ -2,11 +2,16 @@
   text-align: center;
   background-color: #CAD5CA;
 }
+
 button {
   background-color: #6320EE;
   color: #F8F0FB;
   letter-spacing: 2px;
   padding: 2px;
+}
+
+.Grid {
+  text-align: center;
 }
 .App-logo {
   height: 40vmin;

@@ -102,7 +102,7 @@ const App = () => {
       >
         clear
       </button>
-      <div
+      <div className="Grid"
         style={{
           display: "grid",
           gridTemplateColumns: `repeat(${numCols}, 20px)`
