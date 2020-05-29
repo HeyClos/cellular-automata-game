@@ -1,5 +1,6 @@
 import React, { useState, useCallback, useRef } from "react";
 import produce from "immer";
+import "./App.css"
 
 const numRows = 30;
 const numCols = 50;
