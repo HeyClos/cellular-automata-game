@@ -1,3 +1,6 @@
+Click here to check out the [Cellular Automata Game](cellular-automata-game.now.sh).
+Click a few boxes to change their colors and see what happens, dont forget to try different combinations!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
